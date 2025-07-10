@@ -1,0 +1,16 @@
+.main-form{
+    .form-content {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+        gap: 8px;   
+
+        .input{
+            padding: 12px;
+        }
+    }
+  .send-message{
+    padding: 18px 24px;
+    font-family: "Rubik", sans-serif;
+  }
+}

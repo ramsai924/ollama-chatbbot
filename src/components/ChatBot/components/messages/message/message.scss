@@ -1,0 +1,19 @@
+.message{
+    width: fit-content;
+    max-width: 80%;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #dbdada;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+
+    &.sent{
+        align-self: flex-end;
+    }
+    &.recevied{
+        align-self: flex-start;
+    }
+}
