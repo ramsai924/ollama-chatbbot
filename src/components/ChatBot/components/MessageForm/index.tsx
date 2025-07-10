@@ -14,7 +14,7 @@ function MessageForm() {
         // Step 1: Add empty "received" message
         createdMessage({
             type: 'received',
-            content: 'Thinking...',
+            content: 'THINIKING_LOADER',
             createdDate: new Date(),
         });
 
